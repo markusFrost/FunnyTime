@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="funnytime.ru.whitemonkteam.funny_time.funnytime" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".objects.AppContext"
+        android:allowBackup="true"
+        android:icon="@drawable/ft_main"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginVKActivity"
+            android:label="@string/title_activity_login_vk" >
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name=".CUActivity"
+            android:label="@string/title_activity_cu" >
+        </activity>
+        <activity
+            android:name=".XYChartBuilder"
+            android:label="@string/title_activity_xychart_builder" >
+        </activity>
+        <activity
+            android:name=".ImageDownloadActivity"
+            android:label="@string/title_activity_image_download" >
+        </activity>
+    </application>
+
+</manifest>

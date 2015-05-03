@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Funny Time</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_item_home">Home</string>
+    <string name="drawer_item_free_play">Free Play</string>
+    <string name="drawer_item_custom">Custom</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="drawer_item_help">Help</string>
+    <string name="drawer_item_open_source">Open Source</string>
+    <string name="drawer_item_contact">Contact</string>
+
+    <string name="drawer_item_films">Фильмы</string>
+    <string name="drawer_item_serials">Сериалы</string>
+    <string name="drawer_item_books">Книги</string>
+    <string name="drawer_item_statistic">Статистика</string>
+    <string name="drawer_item_statistic_saw">Просмотрено</string>
+    <string name="drawer_item_statistic_raiting">Рейтинг</string>
+    <string name="drawer_item_statistic_duration">Длительность</string>
+
+    <string name="drawer_item_my_accounts">Мои аккаунты</string>
+
+    <string name="divider">Divider</string>
+
+    <string name="item">Item #</string>
+    <string name="facebook_app_id">1646388738920557</string>
+    <string name="vk_app_id">4352648</string>
+    <!-- Error -->
+    <string name="error">Error!</string>
+    <string name="json_error">JSON Error!</string>
+    <string name="custom_view_dialog_error">Error while seting CustomView dialog!</string>
+    <string name="blur_background_error">BlurBackground Error!</string>
+    <string name="blur_task_error">Blur task Error!</string>
+    <string name="close">Close</string>
+    <!-- DialogsMain -->
+    <string name="message">Message</string>
+    <string name="title">Title</string>
+    <string name="progress">Progress...</string>
+    <string name="ok">Ok</string>
+    <string name="set">Set</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="progress_save_message">Saving...</string>
+
+
+
+    <string name="social_facebook_button">{icon-facebook} Facebook login</string>
+    <string name="social_twitter_button">{icon-twitter} Twitter login</string>
+    <string name="social_google_button">{icon-gplus} G+ login</string>
+    <string name="social_vk_button">{icon-vk} Vk login</string>
+
+    <!-- Menu -->
+    <string name="menu_done_item">Done</string>
+    <string name="menu_list_item">List</string>
+    <string name="menu_photo">Photo</string>
+    <string name="menu_load">Load</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_delete_item">Delete</string>
+    <string name="menu_clear">Clear</string>
+    <string name="menu_erase">Erase</string>
+    <string name="menu_pencil">Pencil</string>
+    <string name="menu_color">Color</string>
+    <string name="menu_size">Size</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_marker">markers</string>
+    <string name="menu_share_widget">Share</string>
+    <string name="menu_share">Share</string>
+
+    <string name="vk_id">4829152</string>
+
+    <string name="alertNotif">Уведомление</string>
+    <string name="alertNotSyncData">У вас есть несинхронизированные данные. Синхронизировать?</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="delete_friend">Remove friend</string>
+    <string name="add_friend">Invite</string>
+    <string name="search_friend">Search</string>
+
+    <string name="vk_login">VK Login</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_login_vk">LoginVKActivity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_cu">CUActivity</string>
+
+    <string name="strMark">Оценка : </string>
+    <string name="strSeen">Просмотрено : </string>
+
+    <string name="strAdd">Добавить</string>
+    <string name="strEnterName">Введите Название</string>
+    <string name="strOk">Сохранить</string>
+    <string name="strCancel">Отмена</string>
+    <string name="strPlan">Запланирован</string>
+    <string name="strRead">Прочитано: </string>
+    <string name="strEnterAuthor">Введите имя автора</string>
+    <string name="strEnterSeason">Сезон</string>
+    <string name="strEnterSeries">Серия</string>
+    <string name="strEnterPage">Страница</string>
+    <string name="str_set_date">Напомнить</string>
+    <string name="str_saw_today">Досмотрел в этом месяце</string>
+    <string name="str_read_today">Дочитал в этом месяце</string>
+    <string name="str_showAll">Показать всем пользователям</string>
+    <string name="alertShure">Уверены что хотите удалить выбранную запись?</string>
+
+    <string name="wantSee">Хочу посмотреть</string>
+    <string name="wantRead">Хочу почитать</string>
+    <string name="doNotLike">Не понравилось</string>
+
+    <string name="count">Кол - во :</string>
+
+    <string-array name="strArrayFilm">
+        <item>Хочу посмотреть</item>
+        <item>Досмотрел</item>
+    </string-array>
+    <string-array name="strArraySerial">
+        <item>Хочу посмотреть</item>
+        <item>Уже смотрю</item>
+        <item>Досмотрел</item>
+    </string-array>
+    <string-array name="strArrayBook">
+        <item>Хочу почитать</item>
+        <item>Уже читаю</item>
+        <item>Дочитал</item>
+    </string-array>
+
+
+    <string-array name="strViewPagerTitle">
+        <item>Фильмы</item>
+        <item>Сериалы</item>
+        <item>Книги</item>
+        <item>Любимые авторы</item>
+    </string-array>
+
+    <string name="title_activity_xychart_builder">XYChartBuilder</string>
+    <string name="title_activity_image_download">ImageDownloadActivity</string>
+    <string name="cache_dirname">GoogleImgApp_Cache</string>
+    <string name="stay_thinking">Оставить отзыв</string>
+    <string name="thinking">Отзыв</string>
+    <string name="tell_friends">Рассказать об этом друзьям?</string>
+    <string name="capture_text">Введите текст с картинки</string>
+
+
+</resources>

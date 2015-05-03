@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grey_light_light">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <funnytime.ru.whitemonkteam.funny_time.funnytime.utils.SocialCard
+			android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			custom:color="@color/vk"
+			custom:text_color="@color/vk"
+			custom:dark_color="@color/vk_light"
+			custom:profile_image="@drawable/vk_user"
+
+			android:id="@+id/vk_card"/>
+
+        <funnytime.ru.whitemonkteam.funny_time.funnytime.utils.SocialCard
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            custom:color="@color/facebook"
+            custom:text_color="@color/facebook"
+            custom:dark_color="@color/facebook_light"
+            custom:profile_image="@drawable/fb_user"
+            android:layout_below="@id/vk_card"
+            android:id="@+id/fb_card"/>
+
+
+    </RelativeLayout>
+</ScrollView>

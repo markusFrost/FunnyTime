@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+    <EditText
+        android:id="@+id/serialEditName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+         android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:textColorHint="@android:color/darker_gray"
+        android:hint="@string/strEnterName"
+        android:inputType="textCapSentences"
+        android:padding="10dp"
+        android:textColor="@android:color/background_dark" >
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/serialSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_showAll"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/serialCbShowAll"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/serialEditSeason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+             android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:ems="10"
+            android:textColorHint="@android:color/darker_gray"
+            android:hint="@string/strEnterSeason"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:textColor="@android:color/background_dark" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/serialEditSeries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+             android:gravity="center_horizontal"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:ems="10"
+            android:hint="@string/strEnterSeries"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColor="@android:color/background_dark" >
+        </EditText>
+    </LinearLayout>
+
+    <RatingBar
+        android:id="@+id/serialRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:numStars="10"
+        android:stepSize="1.0" />
+
+    <Button
+        android:id="@+id/serialBtnRemember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/str_set_date" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_saw_today"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/serialCbToday"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stay_thinking"
+                android:id="@+id/serialBtnComment"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/serialBtnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="5dp"
+            android:padding="10dp"
+            android:text="@string/strOk" />
+
+        <Button
+            android:id="@+id/serialBtnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:text="@string/strCancel" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icon_stop"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/serial_iv" />
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
